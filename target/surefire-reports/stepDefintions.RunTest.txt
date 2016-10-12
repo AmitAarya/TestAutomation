@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: stepDefintions.RunTest
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 103.557 sec <<< FAILURE! - in stepDefintions.RunTest
+Then Inside then(Scenario: Scenario_0)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError
+
+Scenario: Scenario_0  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError
+

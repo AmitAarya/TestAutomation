@@ -1,0 +1,225 @@
+[
+  {
+    "id": "login-featurs",
+    "description": "I want to use this template for my feature file",
+    "name": "LogIn Featurs",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "id": "login-featurs;scenario-0",
+        "description": "",
+        "name": "Scenario_0",
+        "keyword": "Scenario",
+        "line": 4,
+        "steps": [
+          {
+            "result": {
+              "duration": 99100012766,
+              "status": "passed"
+            },
+            "name": "Inside SetUp",
+            "keyword": "Given ",
+            "line": 5,
+            "match": {
+              "location": "Login.inside_SetUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3590939444,
+              "status": "passed"
+            },
+            "name": "Inside Running",
+            "keyword": "When ",
+            "line": 6,
+            "match": {
+              "location": "Login.inside_Running()"
+            }
+          },
+          {
+            "result": {
+              "duration": 803546514,
+              "status": "passed"
+            },
+            "name": "Inside TearDown",
+            "keyword": "Then ",
+            "line": 7,
+            "match": {
+              "location": "Login.inside_TearDown()"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "Login.feature"
+  },
+  {
+    "id": "title-of-your-feature",
+    "description": "I want to use this template for my feature file",
+    "name": "Title of your feature",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "id": "title-of-your-feature;scenario-0",
+        "description": "",
+        "name": "Scenario_0",
+        "keyword": "Scenario",
+        "line": 4,
+        "steps": [
+          {
+            "result": {
+              "duration": 303097,
+              "status": "passed"
+            },
+            "name": "Inside given",
+            "keyword": "Given ",
+            "line": 5,
+            "match": {
+              "location": "TestFeature.inside_given()"
+            }
+          },
+          {
+            "result": {
+              "duration": 165820,
+              "status": "passed"
+            },
+            "name": "Inside when",
+            "keyword": "When ",
+            "line": 6,
+            "match": {
+              "location": "TestFeature.inside_when()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2348434,
+              "status": "failed",
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.fail(Assert.java:95)\r\n\tat stepDefintions.TestFeature.inside_then(TestFeature.java:29)\r\n\tat ✽.Then Inside then(Test.feature:7)\r\n"
+            },
+            "name": "Inside then",
+            "keyword": "Then ",
+            "line": 7,
+            "match": {
+              "location": "TestFeature.inside_then()"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "title-of-your-feature;scenario-1",
+        "description": "",
+        "name": "Scenario_1",
+        "keyword": "Scenario",
+        "line": 10,
+        "steps": [
+          {
+            "result": {
+              "duration": 4347907,
+              "status": "passed"
+            },
+            "name": "Inside given_1",
+            "keyword": "Given ",
+            "line": 11,
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 13
+                }
+              ],
+              "location": "TestFeature.inside_given_(int)"
+            }
+          },
+          {
+            "result": {
+              "duration": 96221,
+              "status": "passed"
+            },
+            "name": "Inside when_1",
+            "keyword": "When ",
+            "line": 12,
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 12
+                }
+              ],
+              "location": "TestFeature.inside_when_(int)"
+            }
+          },
+          {
+            "result": {
+              "duration": 83071,
+              "status": "passed"
+            },
+            "name": "Inside then_1",
+            "keyword": "Then ",
+            "line": 13,
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 12
+                }
+              ],
+              "location": "TestFeature.inside_then_(int)"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "title-of-your-feature;scenario-2",
+        "description": "",
+        "name": "Scenario_2",
+        "keyword": "Scenario",
+        "line": 15,
+        "steps": [
+          {
+            "result": {
+              "duration": 44903,
+              "status": "passed"
+            },
+            "name": "Inside given_One",
+            "keyword": "Given ",
+            "line": 16,
+            "match": {
+              "location": "TestFeature.inside_given_One()"
+            }
+          },
+          {
+            "result": {
+              "duration": 33998,
+              "status": "passed"
+            },
+            "name": "Inside when_One",
+            "keyword": "When ",
+            "line": 17,
+            "match": {
+              "location": "TestFeature.inside_when_One()"
+            }
+          },
+          {
+            "result": {
+              "duration": 31753,
+              "status": "passed"
+            },
+            "name": "Inside then_One",
+            "keyword": "Then ",
+            "line": 18,
+            "match": {
+              "location": "TestFeature.inside_then_One()"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "Test.feature"
+  }
+]
